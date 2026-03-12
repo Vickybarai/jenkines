@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    stages {
+        stage('Pull') {
+            steps {
+                git branch: 'main-code', url: 'https://github.com/Vickybarai/jenkines.git'
+                echo 'Pulling code from repository...'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building the application...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing the application...'
+            }
+        }
+       stage('Deploy') {
+            steps {
+                echo 'Deploying the application...'
+            }
+        } 
+}
+    }
