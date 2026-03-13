@@ -4,4 +4,4 @@
 [SonarQube Steps](https://github.com/Vickybarai/Devops/blob/main-edit/SonarQube/SonarQube-steps.md)
 
 ---
-demo_github_trigger_1commit
+demo_github_trigger_1_commit
