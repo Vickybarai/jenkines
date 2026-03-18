@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
     stages {
@@ -22,7 +21,7 @@ pipeline {
         }
         stage ('DEPLOY'){
             steps{
-                echo 'DEPLOY SUCCESS'
+                echo 'DEPLOY SUCCESS Done'
             }
         }
     }
