@@ -10,7 +10,7 @@ pipeline {
             steps{
                 sh '''
                     cd backend
-                    mvn clean package -DskipTests -e
+                    mvn clean package -DskipTests 
                 '''
             }
         }
